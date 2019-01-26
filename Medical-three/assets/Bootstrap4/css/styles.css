@@ -520,6 +520,23 @@ html, body {
     border-radius: 0px;
     background-color: #b1b6b9;
 }
+
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #126e83;
+}
+/*=================== News Section Styling ===================*/
+.news-text {
+    color: #878787;
+    font-size: 20px;
+    font-family: 'HelveticaNeueLTPro-Roman';
+}
+
+.new-blog-text {
+    color: #000000;
+    font-size: 62px;
+    text-transform: uppercase;
+    font-family: 'HelveticaNeueLTPro-Bd';
+}
 /*=================== Custome Margins ===================*/
 .mt-300 {
     margin-top: 300px;
@@ -608,6 +625,10 @@ html, body {
 
 .mt-94 {
     margin-top: 94px;
+}
+
+.mt-93 {
+    margin-top: 93px;
 }
 
 .mt-90 {

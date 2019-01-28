@@ -27,7 +27,7 @@
             showItems: 5,
             button: {
                 'class': 'btn-load-more mt-70',
-                text: 'More'
+                text: 'LOAD MORE'
             }
         };
 

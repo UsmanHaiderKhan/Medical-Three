@@ -71,36 +71,36 @@ $(function () {
         return false;
     });
 });
-//$(function () {
-//    var showChar = 178;
-//    var moretext = "Read More";
-//    var lesstext = "Read Less";
-//    $('.comments-spaces').each(function () {
-//        var content = $(this).html();
-//        if (content.length > showChar) {
-//            var show_content = content.substr(0, showChar);
-//            var hide_content = content.substr(showChar, content.length - showChar);
-//            var html = show_content + '<span class="remaining-contents"><span>' + hide_content +
-//                '</span><a href="" class="morelinkss btn btn-more-load link-style mt-45 btn-r-0" style="display:block;" >' + moretext + '</a>'
-//                + '</span>';
-//            $(this).html(html);
-//        }
-//    });
+$(function () {
+    var showChar = 102;
+    var moretext = "...";
+    var lesstext = "...less";
+    $('.comments-spacess').each(function () {
+        var content = $(this).html();
+        if (content.length > showChar) {
+            var show_content = content.substr(0, showChar);
+            var hide_content = content.substr(showChar, content.length - showChar);
+            var html = show_content + '<span class="remaining-contents"><span>' + hide_content +
+                '</span><a href="" class="morelinkss link-styles">' + moretext + '</a>'
+                + '</span>';
+            $(this).html(html);
+        }
+    });
 
-//    $(".morelinkss").click(function () {
+    $(".morelinkss").click(function () {
 
-//        if ($(this).hasClass("less")) {
-//            $(this).removeClass("less");
-//            $(this).html(moretext);
-//        } else {
-//            $(this).addClass("less");
-//            $(this).html(lesstext);
-//        }
-//        $(this).parent().prev().toggle();
-//        $(this).prev().toggle();
-//        return false;
-//    });
-//});
+        if ($(this).hasClass("less")) {
+            $(this).removeClass("less");
+            $(this).html(moretext);
+        } else {
+            $(this).addClass("less");
+            $(this).html(lesstext);
+        }
+        $(this).parent().prev().toggle();
+        $(this).prev().toggle();
+        return false;
+    });
+});
 
 /*===================== Load More Images ======================*/
 $(function () {
@@ -240,4 +240,8 @@ $(document).ready(function () {
         }
     });
 
+});
+/*===================== Date Picker Function ======================*/
+$(function () {
+    $("#datepicker").datepicker();
 });

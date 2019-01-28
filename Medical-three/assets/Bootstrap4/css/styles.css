@@ -125,7 +125,7 @@ html, body {
     color: #000000;
     font-size: 25px;
     font-weight: 500;
-    text-transform: uppercase;
+    text-transform: capitalize;
     font-family: 'Font Bureau - HeronSansCond Regular';
 }
 
@@ -161,6 +161,7 @@ html, body {
 }
 
 .btn-visit {
+    font-size: 12px;
     border-radius: 23px;
     text-transform: uppercase;
     color: #ffffff !important;
@@ -173,6 +174,7 @@ html, body {
     .btn-visit:hover {
         color: white;
     }
+
 
 .active {
     color: #136479 !important;
@@ -239,6 +241,20 @@ html, body {
 .remaining-contents span {
     display: none;
 }
+
+.link-styles {
+    color: #595959;
+    text-decoration: none;
+}
+
+    .link-styles:hover {
+        color: #595959;
+        text-decoration: none;
+    }
+
+.img-w {
+    width: 20%;
+}
 /*=================== Belo Banner Margins ===================*/
 .smile-text {
     color: #13667b;
@@ -269,6 +285,12 @@ html, body {
         left: 47%;
     }
 
+.move-card {
+    margin-top: 33px;
+    margin-right: -60px;
+    z-index: 4;
+}
+
 .welcome-text {
     color: #000000;
     font-size: 60px;
@@ -276,11 +298,11 @@ html, body {
 }
 
 #card-padding {
-    padding: 60px 160px;
+    padding: 65px 120px;
 }
 
 .card-bg {
-    padding: 70px 50px;
+    padding: 37px 50px;
     width: 100%;
     height: auto;
     background-color: rgb(211, 236, 245);
@@ -313,6 +335,16 @@ html, body {
     background-image: -ms-linear-gradient( 90deg, rgb(25,141,161) 0%, rgb(19,100,121) 100%);
 }
 
+    .btn-contact-us:hover {
+        color: #fff;
+    }
+
+.icon-setting {
+    top: 39%;
+    left: 43%;
+    z-index: 4;
+}
+
 .bg-img {
     background-position: center;
     background-repeat: no-repeat;
@@ -337,6 +369,9 @@ html, body {
     font-family: 'HelveticaNeueLTPro-Bd';
 }
 
+.v-middle {
+    vertical-align: middle;
+}
 
 
 
@@ -417,7 +452,7 @@ html, body {
     width: 100%;
     height: 63px;
     border-radius: 24px;
-    padding: 9px;
+    padding: 16px;
     color: black;
     background-color: #fff;
 }
@@ -525,6 +560,10 @@ html, body {
     background: #126e83;
 }
 /*=================== News Section Styling ===================*/
+.img-width {
+    width: 43%;
+}
+
 .news-text {
     color: #878787;
     font-size: 20px;
@@ -574,6 +613,7 @@ html, body {
 .touch-text {
     color: #fff;
     font-size: 56px;
+    text-transform: uppercase;
     font-family: 'HelveticaInseratLTStd-Roman';
 }
 
@@ -583,6 +623,12 @@ html, body {
     font-family: 'Lato', sans-serif !important;
 }
 
+::placeholder {
+    color: #cacaca !important;
+    font-size: 21px !important;
+    font-family: 'HelveticaNeueLTPro-Roman' !important;
+}
+
 .input-box {
     width: 100%;
     height: 80px;
@@ -590,7 +636,7 @@ html, body {
     padding: 20px;
     font-size: 25px;
     line-height: 1.5;
-    border: 1px solid #ced4da;
+    border: 1px solid #82b1bc;
     background-clip: padding-box;
     background-color: #8bb8c3;
     font-family: 'Lato', sans-serif;
@@ -601,17 +647,61 @@ html, body {
     width: 100%;
     height: auto;
     padding: 20px;
+    font-size: 25px;
+    line-height: 1.5;
     background-color: #8bb8c3;
     font-family: 'Lato', sans-serif;
 }
 
 .btn-submit {
     color: #fff;
-    border: 2px solid #fff;
+    letter-spacing: 6px;
     font-size: 41px;
     text-transform: uppercase;
+    border: 2px solid #fff;
     background: transparent;
     font-family: 'HelveticaNeueLTPro-BdCn';
+}
+
+.subescrption {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.page-footer {
+    width: 100%;
+    height: auto;
+    background-color: #13677c;
+}
+
+.footer-font {
+    font-size: 22px;
+    padding-top: 22px;
+    font-weight: 300;
+    font-family: 'HelveticaNeueLTPro-Md';
+}
+
+.footer-text-color {
+    color: #aac8d0;
+}
+
+.bz-text {
+    color: #aac8d0;
+    font-size: 24px;
+    font-family: 'HelveticaNeueLTPro-Bd';
+}
+
+.setting {
+    top: 27px;
+    right: 6%;
+    z-index: 4;
+}
+
+.cursor {
+    cursor: pointer;
 }
 /*=================== Custome Margins ===================*/
 .mt-300 {
@@ -769,6 +859,10 @@ html, body {
 
 .mt-55 {
     margin-top: 55px;
+}
+
+.mt-53 {
+    margin-top: 53px;
 }
 
 .mt-50 {
@@ -935,6 +1029,10 @@ button:focus {
 .list-group-item-action {
     cursor: pointer !important;
 }
+
+.mt--95 {
+    margin-top: -12px;
+}
 /*================ Media Query ===============*/
 @media screen and (max-width: 1024px) {
     .main-heading {
@@ -951,6 +1049,113 @@ button:focus {
 
     .main-desc {
         font-size: 20px;
+    }
+
+    .welcome-text {
+        font-size: 30px;
+    }
+
+    .card-heading {
+        font-size: 24px;
+    }
+
+    /*.media-mt-setting {
+        margin-top: 320px;
+    }*/
+
+    #card-padding {
+        padding: 0px;
+    }
+
+    .icon-setting {
+        top: 34%;
+        left: 36%;
+    }
+
+    .contact-padding {
+        padding: 50px 60px;
+    }
+
+    .contact-text {
+        font-size: 28px;
+    }
+
+    .tele-text {
+        font-size: 24px;
+    }
+
+    .service-desc {
+        font-size: 18px;
+    }
+
+    #visit {
+        padding: 60px 80px;
+    }
+
+    .visit-text {
+        font-size: 30px
+    }
+
+    .gallery-text {
+        font-size: 30px;
+    }
+
+    .gallery-desc {
+        font-size: 17px;
+    }
+
+    .gallery-padding {
+        padding: 0px;
+    }
+
+    #doctor {
+        padding: 30px 0px;
+    }
+
+    .new-blog-text {
+        font-size: 27px;
+    }
+
+    .news-text {
+        font-size: 17px;
+    }
+
+    .news-heading {
+        font-size: 20px;
+    }
+
+    .news-date {
+        font-size: 14px;
+    }
+
+    .news-desc {
+        font-size: 16px;
+    }
+
+
+    .touch-text {
+        font-size: 50px;
+    }
+
+    .btn-submit {
+        letter-spacing: 3px;
+        font-size: 26px;
+    }
+
+    .bz-text {
+        font-size: 18px;
+    }
+
+    .footer-font {
+        font-size: 15px;
+    }
+
+    .mt--95 {
+        margin-top: 0px;
+    }
+
+    ::placeholder {
+        font-size: 18px !important;
     }
 }
 
@@ -988,6 +1193,128 @@ button:focus {
     .main-desc {
         font-size: 19px;
     }
+
+    .welcome-text {
+        font-size: 30px;
+    }
+
+    .card-heading {
+        font-size: 24px;
+    }
+
+    /*.media-mt-setting {
+        margin-top: 320px;
+    }*/
+
+    #card-padding {
+        padding: 0px;
+    }
+
+    .icon-setting {
+        top: 34%;
+        left: 36%;
+    }
+
+    .contact-padding {
+        padding: 50px 60px;
+    }
+
+    .contact-text {
+        font-size: 28px;
+    }
+
+    .tele-text {
+        font-size: 24px;
+    }
+
+    .service-desc {
+        font-size: 18px;
+    }
+
+    #visit {
+        padding: 60px 80px;
+    }
+
+    .visit-text {
+        font-size: 30px
+    }
+
+    .gallery-text {
+        font-size: 30px;
+    }
+
+    .gallery-desc {
+        font-size: 17px;
+    }
+
+    .gallery-padding {
+        padding: 0px;
+    }
+
+    #doctor {
+        padding: 30px 0px;
+    }
+
+    .doc-name {
+        font-size: 20px;
+    }
+
+    .new-blog-text {
+        font-size: 27px;
+    }
+
+    .news-text {
+        font-size: 17px;
+    }
+
+    .news-heading {
+        font-size: 20px;
+    }
+
+    .news-date {
+        font-size: 14px;
+    }
+
+    .news-desc {
+        font-size: 16px;
+    }
+
+    .media-mt-30 {
+        margin-top: 30px;
+    }
+
+    .mt-90 {
+        margin-top: 0px;
+    }
+
+    .mt-110 {
+        margin-top: 50px;
+    }
+
+    .mt-53 {
+        margin-top: 24px;
+    }
+
+    .touch-text {
+        font-size: 28px;
+    }
+
+    .btn-submit {
+        letter-spacing: 3px;
+        font-size: 26px;
+    }
+
+    .bz-text {
+        font-size: 18px;
+    }
+
+    .footer-font {
+        font-size: 15px;
+    }
+
+    .media-align {
+        text-align: center;
+    }
 }
 
 @media screen and (max-width: 414px) {
@@ -1021,9 +1348,267 @@ button:focus {
     .main-desc {
         font-size: 19px;
     }
+
+    .welcome-text {
+        font-size: 30px;
+    }
+
+    .card-heading {
+        font-size: 24px;
+    }
+
+    /*.media-mt-setting {
+        margin-top: 320px;
+    }*/
+
+    #card-padding {
+        padding: 0px;
+    }
+
+    .icon-setting {
+        top: 34%;
+        left: 36%;
+    }
+
+    .contact-padding {
+        padding: 50px 60px;
+    }
+
+    .contact-text {
+        font-size: 28px;
+    }
+
+    .tele-text {
+        font-size: 24px;
+    }
+
+    .service-desc {
+        font-size: 18px;
+    }
+
+    #visit {
+        padding: 0px;
+    }
+
+    .visit-text {
+        font-size: 30px
+    }
+
+    .gallery-text {
+        font-size: 30px;
+    }
+
+    .gallery-desc {
+        font-size: 17px;
+    }
+
+    .gallery-padding {
+        padding: 0px;
+    }
+
+    #doctor {
+        padding: 30px 0px;
+    }
+
+    .new-blog-text {
+        font-size: 27px;
+    }
+
+    .news-text {
+        font-size: 17px;
+    }
+
+    .news-heading {
+        font-size: 20px;
+    }
+
+    .news-date {
+        font-size: 14px;
+    }
+
+    .news-desc {
+        font-size: 16px;
+    }
+
+    .media-mt-30 {
+        margin-top: 30px;
+    }
+
+    .mt-90 {
+        margin-top: 0px;
+    }
+
+    .mt-110 {
+        margin-top: 50px;
+    }
+
+    .mt-53 {
+        margin-top: 24px;
+    }
+
+    .touch-text {
+        font-size: 28px;
+    }
+
+    .btn-submit {
+        letter-spacing: 3px;
+        font-size: 26px;
+    }
+
+    .bz-text {
+        font-size: 18px;
+    }
+
+    .footer-font {
+        font-size: 15px;
+    }
 }
 
 @media screen and (max-width: 411px) {
+    .media-mt {
+        margin-top: 30px;
+    }
+
+    #HOME {
+        padding: 30px 15px;
+    }
+
+    .main-heading {
+        font-size: 42px;
+    }
+
+    .sub-desc {
+        font-size: 22px;
+    }
+
+    .btn-contact {
+        line-height: 36px;
+        height: 50px;
+        width: 170px;
+        font-size: 16px;
+    }
+
+    .main-head {
+        font-size: 24px;
+    }
+
+    .main-desc {
+        font-size: 19px;
+    }
+
+    .welcome-text {
+        font-size: 30px;
+    }
+
+    .card-heading {
+        font-size: 24px;
+    }
+
+    /*.media-mt-setting {
+        margin-top: 320px;
+    }*/
+
+    #card-padding {
+        padding: 0px;
+    }
+
+    .icon-setting {
+        top: 34%;
+        left: 36%;
+    }
+
+    .contact-padding {
+        padding: 50px 60px;
+    }
+
+    .contact-text {
+        font-size: 28px;
+    }
+
+    .tele-text {
+        font-size: 24px;
+    }
+
+    .service-desc {
+        font-size: 18px;
+    }
+
+    #visit {
+        padding: 0px;
+    }
+
+    .visit-text {
+        font-size: 30px
+    }
+
+    .gallery-text {
+        font-size: 30px;
+    }
+
+    .gallery-desc {
+        font-size: 17px;
+    }
+
+    .gallery-padding {
+        padding: 0px;
+    }
+
+    #doctor {
+        padding: 30px 0px;
+    }
+
+    .new-blog-text {
+        font-size: 27px;
+    }
+
+    .news-text {
+        font-size: 17px;
+    }
+
+    .news-heading {
+        font-size: 20px;
+    }
+
+    .news-date {
+        font-size: 14px;
+    }
+
+    .news-desc {
+        font-size: 16px;
+    }
+
+    .media-mt-30 {
+        margin-top: 30px;
+    }
+
+    .mt-90 {
+        margin-top: 0px;
+    }
+
+    .mt-110 {
+        margin-top: 50px;
+    }
+
+    .mt-53 {
+        margin-top: 24px;
+    }
+
+    .touch-text {
+        font-size: 28px;
+    }
+
+    .btn-submit {
+        letter-spacing: 3px;
+        font-size: 26px;
+    }
+
+    .bz-text {
+        font-size: 18px;
+    }
+
+    .footer-font {
+        font-size: 15px;
+    }
 }
 
 @media screen and (max-width: 375px) {
@@ -1045,6 +1630,120 @@ button:focus {
 
     .main-desc {
         font-size: 18px;
+    }
+
+    .welcome-text {
+        font-size: 30px;
+    }
+
+    .card-heading {
+        font-size: 24px;
+    }
+
+    /*.media-mt-setting {
+        margin-top: 320px;
+    }*/
+
+    #card-padding {
+        padding: 0px;
+    }
+
+    .icon-setting {
+        top: 34%;
+        left: 36%;
+    }
+
+    .contact-padding {
+        padding: 50px 60px;
+    }
+
+    .contact-text {
+        font-size: 28px;
+    }
+
+    .tele-text {
+        font-size: 24px;
+    }
+
+    .service-desc {
+        font-size: 18px;
+    }
+
+    #visit {
+        padding: 0px;
+    }
+
+    .visit-text {
+        font-size: 30px
+    }
+
+    .gallery-text {
+        font-size: 30px;
+    }
+
+    .gallery-desc {
+        font-size: 17px;
+    }
+
+    .gallery-padding {
+        padding: 0px;
+    }
+
+    #doctor {
+        padding: 30px 0px;
+    }
+
+    .new-blog-text {
+        font-size: 27px;
+    }
+
+    .news-text {
+        font-size: 17px;
+    }
+
+    .news-heading {
+        font-size: 20px;
+    }
+
+    .news-date {
+        font-size: 14px;
+    }
+
+    .news-desc {
+        font-size: 16px;
+    }
+
+    .media-mt-30 {
+        margin-top: 30px;
+    }
+
+    .mt-90 {
+        margin-top: 0px;
+    }
+
+    .mt-110 {
+        margin-top: 50px;
+    }
+
+    .mt-53 {
+        margin-top: 24px;
+    }
+
+    .touch-text {
+        font-size: 28px;
+    }
+
+    .btn-submit {
+        letter-spacing: 3px;
+        font-size: 26px;
+    }
+
+    .bz-text {
+        font-size: 18px;
+    }
+
+    .footer-font {
+        font-size: 15px;
     }
 }
 
@@ -1069,6 +1768,120 @@ button:focus {
 
     .main-desc {
         font-size: 18px;
+    }
+
+    .welcome-text {
+        font-size: 30px;
+    }
+
+    .card-heading {
+        font-size: 24px;
+    }
+
+    /*.media-mt-setting {
+        margin-top: 320px;
+    }*/
+
+    #card-padding {
+        padding: 0px;
+    }
+
+    .icon-setting {
+        top: 34%;
+        left: 36%;
+    }
+
+    .contact-padding {
+        padding: 50px 60px;
+    }
+
+    .contact-text {
+        font-size: 28px;
+    }
+
+    .tele-text {
+        font-size: 24px;
+    }
+
+    .service-desc {
+        font-size: 18px;
+    }
+
+    #visit {
+        padding: 0px;
+    }
+
+    .visit-text {
+        font-size: 30px
+    }
+
+    .gallery-text {
+        font-size: 30px;
+    }
+
+    .gallery-desc {
+        font-size: 17px;
+    }
+
+    .gallery-padding {
+        padding: 0px;
+    }
+
+    #doctor {
+        padding: 30px 0px;
+    }
+
+    .new-blog-text {
+        font-size: 27px;
+    }
+
+    .news-text {
+        font-size: 17px;
+    }
+
+    .news-heading {
+        font-size: 20px;
+    }
+
+    .news-date {
+        font-size: 14px;
+    }
+
+    .news-desc {
+        font-size: 16px;
+    }
+
+    .media-mt-30 {
+        margin-top: 30px;
+    }
+
+    .mt-90 {
+        margin-top: 0px;
+    }
+
+    .mt-110 {
+        margin-top: 50px;
+    }
+
+    .mt-53 {
+        margin-top: 24px;
+    }
+
+    .touch-text {
+        font-size: 28px;
+    }
+
+    .btn-submit {
+        letter-spacing: 3px;
+        font-size: 26px;
+    }
+
+    .bz-text {
+        font-size: 18px;
+    }
+
+    .footer-font {
+        font-size: 15px;
     }
 }
 
@@ -1110,6 +1923,31 @@ button:focus {
     .main-desc {
         font-size: 19px;
     }
+
+    .media-align {
+        text-align: center;
+    }
+
+    .doc-name {
+        font-size: 21px;
+    }
+
+    .mt-90 {
+        margin-top: 0px;
+    }
+
+    .mt-110 {
+        margin-top: 50px;
+    }
+
+    .icon-setting {
+        top: 39%;
+        left: 46%;
+    }
+
+    .subescrption {
+        font-size: 16px;
+    }
 }
 
 @media screen and (max-width: 740px) and (orientation: landscape) {
@@ -1143,6 +1981,14 @@ button:focus {
     .main-desc {
         font-size: 19px;
     }
+
+    .doc-name {
+        font-size: 19px;
+    }
+
+    .user {
+        margin-top: -8%;
+    }
 }
 
 @media screen and (max-width: 736px) and (orientation: landscape) {
@@ -1175,6 +2021,14 @@ button:focus {
 
     .main-desc {
         font-size: 19px;
+    }
+
+    .doc-name {
+        font-size: 19px;
+    }
+
+    .user {
+        margin-top: -8%;
     }
 }
 
@@ -1241,6 +2095,14 @@ button:focus {
 
     .main-desc {
         font-size: 19px;
+    }
+
+    .user {
+        margin-top: -8%;
+    }
+
+    .doc-name {
+        font-size: 16px;
     }
 }
 

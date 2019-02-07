@@ -617,7 +617,8 @@ html, body {
     font-family: 'HelveticaInseratLTStd-Roman';
 }
 
-::placeholder {
+
+.place::-webkit-input-placeholder {
     color: #5f7677 !important;
     font-size: 25px !important;
     font-family: 'Lato', sans-serif !important;

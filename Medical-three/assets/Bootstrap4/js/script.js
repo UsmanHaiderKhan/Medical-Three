@@ -186,7 +186,7 @@ $(function () {
     $('.owl-carousel').owlCarousel({
         loop: true,
         //autoplay: true,
-        margin: 15,
+        margin: 40,
         dots: true,
         responsiveClass: true,
         slideBy: '3',

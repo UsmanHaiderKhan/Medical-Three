@@ -1,54 +1,6 @@
 ﻿/*====================== Font Families =======================*/
 
-@font-face {
-    font-family: 'Font Bureau - HeronSansCond Bold';
-    src: url('../../Fonts/Font Bureau - HeronSansCond Bold.otf') format('opentype');
-}
 
-@font-face {
-    font-family: 'Font Bureau - HeronSansCond Medium';
-    src: url('../../Fonts/Font Bureau - HeronSansCond Medium.otf') format('opentype');
-}
-
-@font-face {
-    font-family: 'Font Bureau - HeronSansCond Regular';
-    src: url('../../Fonts/Font Bureau - HeronSansCond Regular.otf') format('opentype');
-}
-
-@font-face {
-    font-family: 'Font Bureau - HeronSansCond SemiBold';
-    src: url('../../Fonts/Font Bureau - HeronSansCond SemiBold.otf') format('opentype');
-}
-
-@font-face {
-    font-family: 'HelveticaInseratLTStd-Roman';
-    src: url('../../Fonts/HelveticaInseratLTStd-Roman.otf') format('opentype');
-}
-
-@font-face {
-    font-family: 'HelveticaNeueLTPro-Bd';
-    src: url('../../Fonts/HelveticaNeueLTPro-Bd.otf') format('opentype');
-}
-
-@font-face {
-    font-family: 'HelveticaNeueLTPro-BdCn';
-    src: url('../../Fonts/HelveticaNeueLTPro-BdCn.otf') format('opentype');
-}
-
-@font-face {
-    font-family: 'HelveticaNeueLTPro-Md';
-    src: url('../../Fonts/HelveticaNeueLTPro-Md.otf') format('opentype');
-}
-
-@font-face {
-    font-family: 'HelveticaNeueLTPro-MdCn';
-    src: url('../../Fonts/HelveticaNeueLTPro-MdCn.otf') format('opentype');
-}
-
-@font-face {
-    font-family: 'HelveticaNeueLTPro-Roman';
-    src: url('../../Fonts/HelveticaNeueLTPro-Roman.otf') format('opentype');
-}
 /*==================== Font Families Area =====================*/
 
 
@@ -82,7 +34,6 @@ html, body {
 }
 
 #HOME {
-    background-image: url('../../Images/main-banner.png');
     background-size: cover;
     position: relative;
     padding: 30px 100px;
@@ -145,11 +96,11 @@ html, body {
 }
 
 .main-heading {
-    font-size: 91px;
+    font-size: 80px;
     color: #ffffff;
     line-height: 1;
-    padding-top: 250px;
-    text-shadow: 3px 3px #41787f;
+    padding-top: 227px;
+    text-shadow: 4px 2px 10px #41787f;
     font-family: 'HelveticaNeueLTPro-Md';
 }
 
@@ -192,9 +143,9 @@ html, body {
     text-transform: uppercase;
     background-color: #ffffff;
     font-family: 'HelveticaNeueLTPro-Bd';
-    -webkit-box-shadow: 5px 9px 2px -1px rgba(24, 132, 153, 1);
-    -moz-box-shadow: 5px 9px 2px -1px rgba(24, 132, 153, 1);
-    box-shadow: 5px 9px 2px -1px rgba(24, 132, 153, 1);
+    -webkit-box-shadow: 4px 7px 2px -1px rgba(24, 132, 153, 1);
+    -moz-box-shadow: 4px 7px 2px -1px rgba(24, 132, 153, 1);
+    box-shadow: 4px 7px 2px -1px rgba(24, 132, 153, 1);
 }
 
     .btn-contact:hover {
@@ -206,7 +157,7 @@ html, body {
 #main-below {
     width: 100%;
     height: auto;
-    padding: 80px 0px;
+    padding: 60px 0px;
     background-image: -moz-linear-gradient( 180deg, rgb(19,102,123) 0%, rgb(28,150,173) 100%);
     background-image: -webkit-linear-gradient( 180deg, rgb(19,102,123) 0%, rgb(28,150,173) 100%);
     background-image: -ms-linear-gradient( 180deg, rgb(19,102,123) 0%, rgb(28,150,173) 100%);
@@ -214,13 +165,13 @@ html, body {
 
 .main-head {
     color: #fff;
-    font-size: 33px;
+    font-size: 28px;
     font-family: 'HelveticaNeueLTPro-BdCn';
 }
 
 .main-desc {
     color: #fff;
-    font-size: 20px;
+    font-size: 16px;
     font-family: 'HelveticaNeueLTPro-MdCn';
 }
 
@@ -293,7 +244,8 @@ html, body {
 
 .welcome-text {
     color: #000000;
-    font-size: 60px;
+    font-size: 45px;
+    margin-bottom: 0;
     font-family: 'HelveticaNeueLTPro-Bd';
 }
 
@@ -310,13 +262,13 @@ html, body {
 
 .card-heading {
     color: #3b7f90;
-    font-size: 25px;
+    font-size: 23px;
     font-family: 'HelveticaNeueLTPro-Md';
 }
 
 .card-desc {
     color: #686868;
-    font-size: 16px;
+    font-size: 14px;
     font-family: 'HelveticaNeueLTPro-Md';
 }
 
@@ -350,7 +302,6 @@ html, body {
     background-repeat: no-repeat;
     background-size: cover;
     padding: 100px 120px;
-    background-image: url('../../Images/right-side.png');
 }
 
 .contact-text {
@@ -379,7 +330,7 @@ html, body {
 /*=================== Service Section Styling===================*/
 .service-desc {
     color: #3b3b3b;
-    font-size: 20px;
+    font-size: 16px;
     font-family: 'HelveticaNeueLTPro-Roman';
 }
 
@@ -411,14 +362,14 @@ html, body {
 
 .card-title {
     color: #ffffff;
-    font-size: 23px;
+    font-size: 20px;
     text-transform: uppercase;
     font-family: 'HelveticaNeueLTPro-MdCn';
 }
 
 .card-text {
     color: #abd0d8;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 400;
     font-family: 'Open Sans', sans-serif;
 }
@@ -428,7 +379,6 @@ html, body {
     background-repeat: no-repeat;
     background-size: cover;
     padding: 70px 120px;
-    background-image: url('../../Images/visit-banner.png');
 }
 
 .page-bg {
@@ -472,7 +422,7 @@ html, body {
 
 .gallery-desc {
     color: #5c5c5c;
-    font-size: 20px;
+    font-size: 16px;
     font-family: 'HelveticaNeueLTPro-Roman';
 }
 
@@ -482,7 +432,7 @@ html, body {
 
 .gallery-text {
     color: #000000;
-    font-size: 60px;
+    font-size: 45px;
     text-transform: uppercase;
     font-family: 'HelveticaNeueLTPro-Bd';
 }
@@ -491,7 +441,7 @@ html, body {
     color: #506a85;
     font-size: 16px;
     text-align: center;
-    padding: 5px;
+    padding: 15px;
     border: 1px solid #e6e9ed;
     font-weight: bold;
     font-family: 'Lato', sans-serif;
@@ -500,20 +450,26 @@ html, body {
 #doctor {
     width: 100%;
     height: auto;
-    padding: 50px 140px;
+    padding: 50px 128px;
     background-color: #ecf3f7;
+}
+
+.cards-shadow {
+    -webkit-box-shadow: 2px 7px 14px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 7px 14px -5px rgba(0,0,0,0.75);
+    box-shadow: 2px 7px 14px -5px rgba(0,0,0,0.75);
 }
 
 .doc-name {
     color: #282828;
-    font-size: 25px;
+    font-size: 22px;
     text-transform: uppercase;
     font-family: 'HelveticaNeueLTPro-Bd';
 }
 
 .desgination {
     color: #126e83;
-    font-size: 25px;
+    font-size: 20px;
     font-family: 'HelveticaNeueLTPro-Md';
 }
 
@@ -523,7 +479,7 @@ html, body {
 
 .doc-desc {
     color: #adadad;
-    font-size: 16px;
+    font-size: 14px;
     font-family: 'HelveticaNeueLTPro-Md';
 }
 
@@ -566,13 +522,13 @@ html, body {
 
 .news-text {
     color: #878787;
-    font-size: 20px;
+    font-size: 16px;
     font-family: 'HelveticaNeueLTPro-Roman';
 }
 
 .new-blog-text {
     color: #000000;
-    font-size: 62px;
+    font-size: 45px;
     text-transform: uppercase;
     font-family: 'HelveticaNeueLTPro-Bd';
 }
@@ -583,13 +539,13 @@ html, body {
 
 .news-heading {
     color: #333333;
-    font-size: 33px;
+    font-size: 24px;
     font-family: 'HelveticaNeueLTPro-Md';
 }
 
 .news-desc {
     color: #595959;
-    font-size: 20px;
+    font-size: 16px;
     font-family: 'HelveticaNeueLTPro-Roman';
 }
 
@@ -607,7 +563,6 @@ html, body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url('../../Images/touch-banner.png');
 }
 
 .touch-text {
@@ -620,7 +575,7 @@ html, body {
 
 .place::-webkit-input-placeholder {
     color: #5f7677 !important;
-    font-size: 25px !important;
+    font-size: 20px !important;
     font-family: 'Lato', sans-serif !important;
 }
 
@@ -657,7 +612,7 @@ html, body {
 .btn-submit {
     color: #fff;
     letter-spacing: 6px;
-    font-size: 41px;
+    font-size: 28px;
     text-transform: uppercase;
     border: 2px solid #fff;
     background: transparent;
@@ -968,6 +923,19 @@ button:focus {
     outline: none;
 }
 
+:focus {
+    outline: -webkit-focus-ring-color auto 0px;
+}
+
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: none;
+}
+
+
 .btn-load-more {
     width: 194px;
     height: 61px;
@@ -978,6 +946,7 @@ button:focus {
     font-family: 'HelveticaNeueLTPro-BdCn';
     font-weight: bold;
     border-radius: 24px;
+    border: none;
     background-image: -moz-linear-gradient( 90deg, rgb(15,97,119) 0%, rgb(24,138,159) 100%);
     background-image: -webkit-linear-gradient( 90deg, rgb(15,97,119) 0%, rgb(24,138,159) 100%);
     background-image: -ms-linear-gradient( 90deg, rgb(15,97,119) 0%, rgb(24,138,159) 100%);

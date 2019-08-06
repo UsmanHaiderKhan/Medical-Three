@@ -117,70 +117,12 @@ $(function () {
 });
 
 /*======================= Load Section Function =======================*/
-//var counters = [];
-//counters = $(".counter-value");
-//var countersQuantity = counters.length;
-//console.log(counters + "," + countersQuantity);
-//var counter = [];
-
-//for (i = 0; i < countersQuantity; i++) {
-//    counter[i] = parseInt(counters[i].innerHTML);
-//}
-//var count = function (start, value, id) {
-//    var localStart = start;
-//    setInterval(function () {
-//        if (localStart < value) {
-//            localStart++;
-//            counters[id].innerHTML = localStart;
-//        }
-//    }, 1);
-//}
-//var cond = true;
-//requestScrollAnimation((pos) => {
-//    var elAlert = document.getElementById("counter-section");
-//    var isVisible = isScrolledIntoView(elAlert, true);
-
-//    if (isVisible) {
-//        if (cond) {
-//            for (var j = 0; j < countersQuantity; j++) {
-//                count(0, counter[j], j);
-//            }
-//            cond = false;
-//        }
-
-
-//    }
-//});
-
 
 /* ==================== Js Function for the Date Picker ================== */
 $(function () {
     $("#datepicker").datepicker();
 });
 /* ==================== Js Function to give the class on Scroll ================== */
-//$(function () {
-//    $(window).scroll(function () {
-//        var scroll = $(window).scrollTop();
-
-//        if (scroll >= 100) {
-//            $("nav").addClass("fixed-top");
-//        } else {
-//            $("nav").removeClass("fixed-top ");
-//        }
-//    });
-//});
-//(function () {
-//    $(window).scroll(function () {
-//        var scroll = $(window).scrollTop();
-
-//        if (scroll >= 100) {
-//            $("#navbarNav ul").removeClass("nav-padding");
-//        } else {
-//            $("#navbarNav ul").addClass("nav-padding");
-//        }
-//    });
-//});
-
 /* ==================== Js Function For the Owl Carousel Slider ================== */
 $(function () {
     $('.owl-carousel').owlCarousel({
@@ -195,8 +137,8 @@ $(function () {
                 items: 1,
                 nav: true
             },
-            600: {
-                items: 3,
+            700: {
+                items: 2,
                 nav: true
             },
             1000: {

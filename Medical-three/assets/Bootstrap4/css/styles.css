@@ -515,6 +515,10 @@ html, body {
 .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
     background: #126e83;
 }
+
+.owl-carousel .owl-stage {
+    padding-bottom: 20px;
+}
 /*=================== News Section Styling ===================*/
 .img-width {
     width: 43%;
@@ -916,16 +920,17 @@ html, body {
 
 
 /*======= Some Commen Styling ======*/
-
+.btn-visit:focus, .btn-visit:active {
+    outline: none !important;
+    box-shadow: none !important;
+    color: #ffffff !important;
+}
 
 button:focus {
     outline: none;
     outline: none;
 }
 
-:focus {
-    outline: -webkit-focus-ring-color auto 0px;
-}
 
 .form-control:focus {
     color: #495057;
@@ -986,25 +991,19 @@ button:focus {
     border-radius: 0px !important;
 }
 
-.btn:focus {
-    outline: none !important;
-    box-shadow: none !important;
-}
-
-.btn:focus, .btn.focus {
-    outline: 0;
-    box-shadow: none !important;
-}
-
 .list-group-item-action {
     cursor: pointer !important;
+}
+
+a:visited {
+    outline: none !important;
 }
 
 .mt--95 {
     margin-top: -12px;
 }
 /*================ Media Query ===============*/
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1025px) {
     .main-heading {
         font-size: 60px;
     }
@@ -1079,8 +1078,10 @@ button:focus {
     }
 
     #doctor {
-        padding: 30px 0px;
+        padding: 32px 28px;
     }
+
+
 
     .new-blog-text {
         font-size: 27px;
@@ -1132,7 +1133,7 @@ button:focus {
 @media screen and (max-width:800px) {
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 769px) {
     .media-mt-30 {
         margin-top: 30px;
     }
@@ -1172,17 +1173,17 @@ button:focus {
         font-size: 24px;
     }
 
-    /*.media-mt-setting {
-        margin-top: 320px;
-    }*/
-
     #card-padding {
         padding: 0px;
     }
 
     .icon-setting {
-        top: 34%;
-        left: 36%;
+        top: 43%;
+        left: 45%;
+    }
+
+    .mt-45 {
+        margin-top: 33px;
     }
 
     .contact-padding {
@@ -1190,7 +1191,11 @@ button:focus {
     }
 
     .contact-text {
-        font-size: 28px;
+        font-size: 24px;
+    }
+
+    .loadMore {
+        padding: 0 30px;
     }
 
     .tele-text {
@@ -1222,7 +1227,7 @@ button:focus {
     }
 
     #doctor {
-        padding: 30px 0px;
+        padding: 30px 30px;
     }
 
     .doc-name {
@@ -1238,7 +1243,7 @@ button:focus {
     }
 
     .news-heading {
-        font-size: 20px;
+        font-size: 17px;
     }
 
     .news-date {
@@ -1287,7 +1292,7 @@ button:focus {
     }
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 415px) {
     .media-mt {
         margin-top: 30px;
     }
@@ -1434,7 +1439,7 @@ button:focus {
     }
 }
 
-@media screen and (max-width: 411px) {
+@media screen and (max-width: 412px) {
     .media-mt {
         margin-top: 30px;
     }
@@ -1581,7 +1586,7 @@ button:focus {
     }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 376px) {
     #HOME {
         padding: 30px 10px;
     }
@@ -1717,7 +1722,7 @@ button:focus {
     }
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 361px) {
 
 
     #HOME {
@@ -1862,7 +1867,7 @@ button:focus {
 @media screen and (max-width: 1024px) and (orientation: landscape) {
 }
 
-@media screen and (max-width: 823px) and (orientation: landscape) {
+@media screen and (max-width: 824px) and (orientation: landscape) {
     .media-mt-30 {
         margin-top: 30px;
     }
@@ -2002,7 +2007,7 @@ button:focus {
     }
 }
 
-@media screen and (max-width: 731px) and (orientation: landscape) {
+@media screen and (max-width: 732px) and (orientation: landscape) {
     .media-mt {
         margin-top: 30px;
     }
@@ -2035,7 +2040,7 @@ button:focus {
     }
 }
 
-@media screen and (max-width: 667px) and (orientation: landscape) {
+@media screen and (max-width: 668px) and (orientation: landscape) {
     .media-mt {
         margin-top: 30px;
     }
@@ -2076,7 +2081,7 @@ button:focus {
     }
 }
 
-@media screen and (max-width: 640px) and (orientation: landscape) {
+@media screen and (max-width: 641px) and (orientation: landscape) {
     .media-mt {
         margin-top: 30px;
     }
